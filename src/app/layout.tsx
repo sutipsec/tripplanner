@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Family Trip Planner",
-  description: "Frontend mock for collaborative family trip planning.",
+  title: "Japan Family Trip 2026 — Trip Planner",
+  description:
+    "Plan and track your family trip to Japan. Itinerary, flights, budget, and checklist — all in one place.",
 };
 
 export default function RootLayout({
@@ -25,7 +26,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased dark`}
     >
       <body className="min-h-full flex flex-col">{children}</body>
     </html>
