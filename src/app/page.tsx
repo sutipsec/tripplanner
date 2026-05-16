@@ -61,7 +61,7 @@ export default function Home() {
         {/* HEADER */}
         <header className="relative overflow-hidden rounded-3xl shadow-2xl shadow-black/40">
           <div className="absolute inset-0">
-            <Image src="/japan-hero.png" alt="Japan scenery" fill className="object-cover object-center" priority />
+            <Image src="/japan-hero.png" alt="Japan scenery" fill sizes="(min-width: 1024px) 960px, 100vw" className="object-cover object-center" priority />
             <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/40" />
             <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent" />
           </div>
